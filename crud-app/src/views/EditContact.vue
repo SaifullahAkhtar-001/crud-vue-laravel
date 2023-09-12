@@ -103,6 +103,7 @@ export default {
                         this.contact.designation = '';
                         this.contact.contact_no = '';
                         alert(Response.data.message);
+                        this.getContact();
                     };
                 }).catch(error => {
                     console.log(error);
